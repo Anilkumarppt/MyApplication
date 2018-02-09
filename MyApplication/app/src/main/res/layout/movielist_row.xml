@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:background="?android:attr/selectableItemBackground"
     android:clickable="true"
     android:focusable="true"
@@ -26,19 +26,15 @@
         android:id="@+id/mv_genere"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
         android:layout_below="@+id/mv_title"
         android:textColor="@color/genere"
-        android:textSize="16dp"
-        android:textStyle="bold" />
+        android:textSize="16dp" />
 
     <TextView
         android:id="@+id/mv_year"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:textColor="@color/year"
-        android:textSize="16dp"
-        android:textStyle="bold" />
+        android:textColor="@color/year" />
 
 </RelativeLayout>

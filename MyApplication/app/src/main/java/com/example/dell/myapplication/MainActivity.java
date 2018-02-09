@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.content_view);
         recyclerView = findViewById(R.id.recycler_view);
         moviesAdapter = new MoviesAdapter(movieList);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());
